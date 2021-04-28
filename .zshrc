@@ -1,5 +1,7 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$PATH:/usr/bin/php72:/home/xploitz404/Descargas/Installers/.flutter_install/flutter/bin/
+
+export CHROME_EXECUTABLE="/var/lib/snapd/snap/bin/chromium"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/xploitz404/.oh-my-zsh"
@@ -106,6 +108,14 @@ alias cp="cp -i"
 alias mv="mv -i"
 alias dud="du -d 1 -h"
 alias t="tail -f"
-alias python="python3.8"
+alias python="python3.9"
 alias platzi="cd Documentos/Platzi"
 alias work="cd Documentos/work"
+alias php="php72"
+alias composer="php72 /bin/composer"
+alias laravel ="/home/xploitz404/.config/composer/vendor/bin/laravel"
+alias dual="cd ~/Documentos/Dual"
+alias tor="~/Descargas/vpn_configs/tor/tor-browser_en-US/start-tor-browser.desktop"
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
